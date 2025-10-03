@@ -1,6 +1,5 @@
 const video1 = document.querySelector('#projectvid1');
 const video2 = document.querySelector('#projectvid2');
-const video3 = document.querySelector('#projectvid3');
 const hoverSign = document.querySelector('.hover-sign');
 
 // Sidebar elements
@@ -17,7 +16,7 @@ const instabtn = document.querySelector('#insta-btn');
 const portfoliobtn = document.querySelector('#portfolio-proj-btn');
 const instaclonebtn = document.querySelector('#insta-clone-btn');
 
-const videoList = [video1,video2,video3];
+const videoList = [video1,video2];
 
 videoList.forEach(function(video){
     video.addEventListener('mouseover', function(){
@@ -63,4 +62,5 @@ portfoliobtn.addEventListener('click', function(e){
 instabtn.addEventListener('click', function(e){
     e.preventDefault();
     window.location.href = 'https://udaykirankatam.github.io/insta_clone/';
+
 })
