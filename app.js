@@ -59,8 +59,9 @@ portfoliobtn.addEventListener('click', function(e){
     e.preventDefault();
     window.location.href = 'https://udaykirankatam.github.io/portfolio/';
 })
-instabtn.addEventListener('click', function(e){
+instaclonebtn.addEventListener('click', function(e){
     e.preventDefault();
     window.location.href = 'https://udaykirankatam.github.io/insta_clone/';
 
 })
+
